@@ -23,7 +23,8 @@
         android:id="@+id/editTextInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Wprowadź tekst"/>
+        android:hint="Wprowadź tekst"
+        android:minHeight="48dp" />
 
     <CheckBox
         android:id="@+id/checkBoxOption"
@@ -35,9 +36,9 @@
         android:id="@+id/switchDarkMode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tryb ciemny"/>
+        android:minHeight="48dp"
+        android:text="Tryb ciemny" />
 
-    <!-- Dodatkowy TextView, którego widoczność kontrolujemy za pomocą CheckBox -->
     <TextView
         android:id="@+id/textViewAdditionalInfo"
         android:layout_width="wrap_content"
